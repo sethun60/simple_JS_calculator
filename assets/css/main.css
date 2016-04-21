@@ -1,0 +1,135 @@
+/* 
+	========================================================
+	Css reset
+	========================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Prevention of cursor changing over text */
+* {
+  -webkit-user-select: none;
+}
+
+*:active,
+*:hover {
+  cursor: pointer;
+}
+
+/*
+	==================================================
+	Main container
+	==================================================
+*/
+.main-container {
+	position: absolute;
+	width: 300px;
+	height: 360px;
+	border: 5px solid black;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 5px;
+	margin: auto;
+	box-shadow: 7px 7px 7px;
+	background: linear-gradient(90deg, #232526 10%, #414345 90%);
+
+}
+
+/*
+	==================================================
+	Display
+	==================================================
+*/
+
+#display {
+	background-color: white;
+	border: 3px solid black;
+	width: 240px;
+	height: 60px;
+	margin: 25px auto;
+	border-radius: 5px;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 55px;
+	padding-top: 10px;
+    background: linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%);
+
+}
+
+/*
+	==================================================
+	Buttons grid
+	==================================================
+*/
+
+.buttons {
+	width: 260px;
+	height: 210px;
+	margin: 0 auto;
+	background: linear-gradient(90deg, #232526 10%, #414345 90%);
+}
+
+/*
+	==================================================
+	Button design
+*/
+
+.button {
+	display: inline-block;
+	width: 50px;
+	height: 40px;
+	border: 1px solid black;
+	margin: 5px 5px;
+	font-size: 38px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px;
+	background-color: black;
+	color: white;
+	background: linear-gradient(90deg, #232526 10%, #414345 90%);
+}
+
